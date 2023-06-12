@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "myRectangle":"../../components/rectangle/rectangle",
+    "myButton": "../../components/Button/button"
+  },
+  "navigationBarTitleText": "购物车"
+}

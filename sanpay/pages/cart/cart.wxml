@@ -1,0 +1,30 @@
+<!--购物车-->
+
+<!-- 本地有数据 -->
+<view wx:if="{{cart.length > 0}}" class="cart-box">
+  <view class="box" wx:for="{{cart}}" wx:key="_id">
+    <view class="box-left">
+      <view class="headline">{{item.title}}</view>
+      <view class="price">￥{{item.price}}</view>
+    </view>
+    <view class="box-right">
+      <button  data-index="{{index}}" class="calculate subtract" bindtap="subtract">-</button>
+      <input type="text" value="{{item.num}}" />
+      <button data-index="{{index}}" class="calculate plus" bindtap="add">+</button>
+    </view>
+  </view>
+
+  <view class="bottom">
+    <view class="aggregate">
+      总计：<text class="price">￥{{totalValue}}</text>
+    </view>
+    <view class="button">
+      <myButton type="add" bindGetQrcode="getQrcode"></myButton>
+      <button class="goToResult" bindtap="goToResult">去结算（{{cart.length}}）</button>
+    </view>
+  </view>
+</view>
+
+<myRectangle wx:else></myRectangle>
+
+    <!-- <button class="resume" bindGetQrcode="getQrcode">继续添加</button> -->

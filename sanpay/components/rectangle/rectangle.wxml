@@ -1,0 +1,6 @@
+<!-- 本地没有数据 -->
+<view class="no-carts">
+  <view class="title">购物车是空的哦~</view>
+  <image src="../../images/cart.png" mode=""/>
+  <myButton type="rectangle" bindGetQrcode="getQrcode"></myButton>
+</view>

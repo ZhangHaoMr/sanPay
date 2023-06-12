@@ -1,0 +1,11 @@
+<view wx:if="{{type == 'circle'}}" class="barCode" bindtap="handleQrcode">
+   <image src="../../images/qrcode.png" mode=""/>
+   <text>请扫描商品</text>
+   <text>条形码</text>
+</view>
+
+<button wx:if="{{type == 'rectangle'}}" class="cart-button" bindtap="handleQrcode">
+  扫一扫条形码
+</button>
+
+<button wx:if="{{type == 'add'}}" class="resume" bindtap="handleQrcode">继续添加</button>

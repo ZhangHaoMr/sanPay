@@ -1,0 +1,57 @@
+/* pages/personal/personal.wxss */
+.page{
+  height: 100%;
+}
+.page_top{
+  width: 100%;
+  height: 95px;
+  background-image: linear-gradient(#f1b847, #fae9bf);
+  padding: 20px;
+}
+.page_top .portrait{
+  display: flex;
+}
+.page_top .portrait image{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+.page_top .portrait .title{
+  margin-top: 20px;
+}
+.page_top .portrait .title .money{
+  color: red;
+}
+
+.page_center{
+  width: 100%;
+  background-color: #f8f8f8;
+}
+
+.page_center .classify{
+  width: 100%;
+  height: 60px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.page_center .one{
+  margin: 10px 0;
+}
+.page_center .classify .left .tag{
+  border-radius: 5px;
+  background-color: red;
+  color: #fec2c2;
+  padding: 0 1px;
+  box-sizing: border-box;
+}
+.page_center .classify image{
+  width: 25px;
+  height: 25px;
+  vertical-align: sub;
+  margin-right: 10px;
+}

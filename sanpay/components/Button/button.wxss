@@ -1,0 +1,28 @@
+/* components/Button/button.wxss */
+.barCode {
+  width: 150px;
+  height: 150px;
+  background-color: #f5ba47;
+  border: 10px solid #fce9bc;
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fceed2;
+  font-size: 15px;
+}
+.barCode image {
+  width: 116rpx;
+  height: 116rpx;
+  margin: 10px 0;
+}
+
+.cart-button {
+  background-color: #feb100;
+}
+
+.resume{
+  background-color: #fc9c24;
+}

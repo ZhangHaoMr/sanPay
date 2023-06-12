@@ -1,0 +1,102 @@
+/* pages/order/order.wxss */
+.order-bottom{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* background-color: aqua; */
+  height: 90rpx;
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #efefef;
+  background-color: #fff;
+}
+
+.order-bottom .bottom-left {
+  flex: 1;
+  padding: 0 10rpx;
+}
+
+.actualPayment {
+  color: #c46468;
+}
+
+.order-bottom .bottom-right {
+  width: 110px;
+  height: 100%;
+}
+.order-bottom .bottom-right .confirmPayment {
+  border-radius: 0;
+  background-color: #fd9d26;
+  color: #f9e6ba;
+  width: 100%;
+  height: 100%;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.order-box {
+  background-color: #f8f8f8;
+  margin-bottom: 90rpx;
+  box-sizing: border-box;
+}
+
+.order-box .card {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color: #fff;
+}
+.order-box .card .box {
+  height: 95px;
+  padding: 10px;
+  border-bottom: 1px solid #cccccc;
+}
+.order-box .card .unpack{
+  padding: 10px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.order-box .card .box  .commodity {
+  display: flex;
+  justify-content: space-between;
+  margin:  10px 0;
+}
+.order-box .card .box  .num {
+  text-align: right;
+}
+
+.order-box .balance .balance-box{
+  font-weight: 600;
+}
+
+/* 间距 */
+.margin{
+  margin-top: 10px;  
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  font-weight: 600;
+}
+
+.tips {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  font-weight: 600;
+}
+.tips .waring {
+  width: 18px;
+  height: 18px;
+  border-radius: 18px;
+  background-color: #8d8d8d;
+  text-align: center;
+  line-height: 18px;
+  color: #fff;
+  margin-right: 10rpx;
+}

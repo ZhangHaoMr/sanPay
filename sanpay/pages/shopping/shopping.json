@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "mySwpier":"../../components/Swpier/Swpier",
+    "myButton":"../../components/Button/button"
+  }
+}

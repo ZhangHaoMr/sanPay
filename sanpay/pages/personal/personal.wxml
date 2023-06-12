@@ -1,0 +1,61 @@
+<!--个人中心-->
+<view class="page">
+  <view class="page_top">
+    <view class="portrait">
+      <image src="../../images/gou.png" mode=""/>
+
+      <view class="title">
+        <text>山大佛</text>
+        <text>
+          账户余额： <text class="money">4元</text>
+        </text>
+      </view>
+    </view>
+  </view>
+  <view class="page_center">
+    <view class="classify one">
+     <view class="left">
+      <image src="../../images/user/money.png" mode=""/>
+      <text>我的钱包</text>
+      <text class="tag">充就送</text>
+     </view>
+     <text> > </text>
+    </view>
+
+    <view class="classify">
+     <view class="left">
+      <image src="../../images/user/shop_order.png" mode=""/>
+      <text>微店订单</text>
+     </view>
+     <text> > </text>
+    </view>
+    <view class="classify">
+     <view class="left">
+      <image src="../../images/user/online_order.png" mode=""/>
+      <text>优选订单</text>
+     </view>
+     <text> > </text>
+    </view>
+    <view class="classify">
+     <view class="left">
+      <image src="../../images/user/address.png" mode=""/>
+      <text>地址管理</text>
+     </view>
+     <text> > </text>
+    </view>
+    <view class="classify">
+     <view class="left">
+      <image src="../../images/user/tel.png" mode=""/>
+      <text>联系客服</text>
+     </view>
+     <text> > </text>
+    </view>
+    <view class="classify one">
+     <view class="left">
+      <image src="../../images/user/feedback.png" mode=""/>
+      <text>意见反馈</text>
+     </view>
+     <text> > </text>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,7 @@
+<!--扫码购物-->
+<view class="content">
+  <mySwpier avatr="{{avatr}}"></mySwpier>
+  <view class="scan">
+    <myButton bindGetQrcode="getQrcode"></myButton>
+  </view>
+</view>

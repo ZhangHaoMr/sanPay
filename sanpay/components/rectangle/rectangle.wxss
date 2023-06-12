@@ -1,0 +1,19 @@
+/* components/rectangle/rectangle.wxss */
+.no-carts{
+  height: 100%;
+  padding-top: 220rpx;
+}
+.no-carts .title {
+  text-align: center;
+  color: #b1b1b0;
+}
+.no-carts image {
+  width: 210rpx;
+  height: 190rpx;
+  display: block;
+  margin: 50rpx auto;
+}
+
+.no-carts .cart-button {
+  background-color: #feb100;
+}
